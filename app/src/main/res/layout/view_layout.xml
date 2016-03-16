@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_view_title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+    <TextView
+        android:id="@+id/tv_view_content"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/edit_view_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:hint="@string/wordnumber"
+            android:layout_marginLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edit_view_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:hint="@string/linenumber"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/view_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">remember</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">제목을 입력하세요.</string>
+    <string name="content">내용을 입력하세요.</string>
+    <string name="wordnumber">메모 개수를 입력하세요.</string>
+    <string name="linenumber">표시할 줄수를 입력하세요.</string>
+</resources>
